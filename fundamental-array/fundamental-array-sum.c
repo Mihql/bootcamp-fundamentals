@@ -4,7 +4,7 @@ int main(void)
 {
     int a[5] = {5, 5, 5, 5, 5}, i, j, max = 5, sum = 0;
 
-    for (i = 0; i < 5; i++)
+    for (i = 0; i < max; i++)
     {
         sum += a[i];
     }
